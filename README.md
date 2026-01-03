@@ -1,8 +1,8 @@
 # ML User Behavior Prediction
-Predicting e-commerce purchase intent using user session behavior
+Predicting e-commerce purchase intent using user session behavior.
 
 ## Overview
-This project builds an end-to-end machine learning pipeline to predict whether an e-commerce user session will result in a purchase. The goal is to demonstrate a structured ML workflow—from problem framing and exploratory data analysis to modeling, evaluation, and interpretation—using real-world behavioral data.
+This project builds an end-to-end machine learning pipeline to predict whether an e-commerce user session will result in a purchase. The goal is to demonstrate a structured ML workflow, from problem framing and exploratory data analysis to modeling, evaluation, and interpretation, using real-world behavioral data.
 
 ## Business Motivation
 Understanding purchase intent enables e-commerce platforms to:
