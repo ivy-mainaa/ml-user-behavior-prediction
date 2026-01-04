@@ -1,65 +1,82 @@
-# ML User Behavior Prediction
-Predicting e-commerce purchase intent using user session behavior.
+# E-commerce User Behavior Prediction
+
+Predicting online purchase intent using session-level user behavior data.
+
+---
 
 ## Overview
-This project builds an end-to-end machine learning pipeline to predict whether an e-commerce user session will result in a purchase. The goal is to demonstrate a structured ML workflow, from problem framing and exploratory data analysis to modeling, evaluation, and interpretation, using real-world behavioral data.
+
+This project builds an end-to-end machine learning pipeline to predict whether an
+e-commerce user session will result in a purchase. The focus is on translating
+behavioral signals (engagement, navigation patterns, and visit context) into
+actionable predictions.
+
+The project demonstrates a complete ML workflow using real-world data, with
+emphasis on model comparison, interpretability, and business relevance.
+
+---
 
 ## Business Motivation
-Understanding purchase intent enables e-commerce platforms to:
-- Personalize user experiences
-- Optimize marketing spend
+
+Accurately predicting purchase intent enables e-commerce platforms to:
+
+- Personalize user experiences in real time
+- Optimize marketing and retargeting spend
 - Improve conversion rates
-- Identify high-intent sessions in real time
+- Identify high-intent sessions earlier in the funnel
+
+---
 
 ## Dataset
-- **Online Shoppers Purchasing Intention Dataset**
-- Source: UCI Machine Learning Repository  
-- Contains session-level behavioral features such as page engagement, visit duration, and user type  
+
+**Online Shoppers Purchasing Intention Dataset**  
+Source: UCI Machine Learning Repository
+
+- Session-level behavioral features (page views, duration, bounce behavior)
+- Mixture of numerical and categorical variables
 - Target variable: `Revenue` (binary purchase indicator)
 
-## Methodology
-1. Data cleaning and preprocessing  
-2. Exploratory Data Analysis (EDA)  
-3. Feature engineering and encoding  
-4. Baseline Logistic Regression  
-5. Feature selection and refined Logistic Regression  
-6. Tree-based models (Random Forest, XGBoost)  
-7. Model comparison and evaluation  
-8. Feature importance analysis  
-9. Business insights and recommendations  
+---
 
-## Models Used
-- Logistic Regression (Baseline and Refined)
-- Random Forest
-- XGBoost
+## Modeling Approach
+
+The modeling pipeline includes:
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA) to understand behavioral patterns
+- Feature engineering and encoding
+- Baseline Logistic Regression
+- Refined Logistic Regression with feature selection
+- Tree-based models (Random Forest, XGBoost)
+- Model comparison using accuracy, precision-recall, and ROC-AUC
+- Feature importance analysis for interpretability
+
+---
 
 ## Key Results
-- Tree-based models outperform linear models for this task.
-- **PageValues** and product engagement metrics are the strongest predictors of purchase intent.
-- Random Forest achieves the best balance between precision and recall for revenue prediction.
-- XGBoost achieves the highest overall accuracy and ROC-AUC.
 
-## Data Storage Note
-The dataset is uploaded manually to the Google Colab runtime for exploratory analysis.  
-In a production environment, this data would be stored and accessed from cloud storage or a database.
+- Tree-based models outperform linear models on this task
+- PageValues and product-related engagement metrics are the strongest predictors
+- Random Forest achieves the best balance between precision and recall
+- XGBoost achieves the highest overall accuracy and ROC-AUC
 
-## Project Structure
-  ml-user-behavior-prediction/
-│── online_shoppers_revenue_prediction.ipynb
-│── README.md
+---
 
+## Data Handling Note
+
+The dataset is uploaded manually to the Google Colab runtime for exploratory analysis.
+In a production setting, this data would be accessed via cloud storage or a database pipeline rather than manual uploads.
+
+---
 
 ## Tools & Technologies
-- Python, Pandas, NumPy  
-- Scikit-learn  
-- XGBoost  
-- Matplotlib, Seaborn  
-- Google Colab  
 
-## Status
-Completed
+- Python, Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib, Seaborn
+- Google Colab
 
-## Author
-Ivy Maina
+
 
 
