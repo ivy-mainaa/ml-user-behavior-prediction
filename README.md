@@ -6,10 +6,7 @@ Predicting online purchase intent using session-level user behavior data.
 
 ## Overview
 
-This project builds an end-to-end machine learning pipeline to predict whether an
-e-commerce user session will result in a purchase. The focus is on translating
-behavioral signals (engagement, navigation patterns, and visit context) into
-actionable predictions.
+This project builds an end-to-end machine learning pipeline to predict whether an e-commerce user session will result in a purchase. The focus is on translating behavioral signals (engagement, navigation patterns, and visit context) into actionable predictions.
 
 The project demonstrates a complete ML workflow using real-world data, with
 emphasis on model comparison, interpretability, and business relevance.
@@ -20,10 +17,10 @@ emphasis on model comparison, interpretability, and business relevance.
 
 Accurately predicting purchase intent enables e-commerce platforms to:
 
-- Personalize user experiences in real time
-- Optimize marketing and retargeting spend
-- Improve conversion rates
-- Identify high-intent sessions earlier in the funnel
+- Personalize user experiences in real time.
+- Optimize marketing and retargeting spend.
+- Improve conversion rates.
+- Identify high-intent sessions earlier in the funnel.
 
 ---
 
@@ -33,8 +30,8 @@ Accurately predicting purchase intent enables e-commerce platforms to:
 Source: UCI Machine Learning Repository
 
 - Session-level behavioral features (page views, duration, bounce behavior)
-- Mixture of numerical and categorical variables
-- Target variable: `Revenue` (binary purchase indicator)
+- Mixture of numerical and categorical variables.
+- Target variable: `Revenue` (binary purchase indicator).
 
 ---
 
@@ -55,10 +52,10 @@ The modeling pipeline includes:
 
 ## Key Results
 
-- Tree-based models outperform linear models on this task
-- PageValues and product-related engagement metrics are the strongest predictors
-- Random Forest achieves the best balance between precision and recall
-- XGBoost achieves the highest overall accuracy and ROC-AUC
+- Tree-based models outperform linear models on this task.
+- PageValues and product-related engagement metrics are the strongest predictors.
+- Random Forest achieves the best balance between precision and recall.
+- XGBoost achieves the highest overall accuracy and ROC-AUC.
 
 ---
 
